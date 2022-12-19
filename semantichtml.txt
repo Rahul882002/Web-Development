@@ -1,0 +1,51 @@
+====landing page
+->start a section for whole landing page
+->start navigation bar on landing page 
+   -- image for logo
+   --unordered list for links on nav-bar
+   ---end nav
+->start header
+   --div
+    -heading 
+    -paragraph 
+    -button 
+   /div 
+->image wraped in figure tag to style and add captions 
+->close header and section
+
+
+===in page -2
+->start main tag 
+
+  -> start section-1 
+  - heading2  
+  -> div                    <figure>
+  - paragraphs              <img src="link">
+  -> /div
+  -> end section-1
+   
+  -> start section-2
+  ->heading 2              
+    <figure>            -> div                 
+     <img src="link">    - paragraphs              
+                        -> /div
+  -> end section-2
+
+
+===in page -3 continues main tag
+  ->start section -3
+   ->heading 2
+    ->form start 
+      -input
+      -textarea 
+      -button 
+    ->end form 
+  ->end section -3 
+->end main 
+ 
+--> footer  element
+     ->image 
+     ->div start -  <a>link - a  - a - a - end div 
+     ->paragraph
+
+
