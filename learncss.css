@@ -58,7 +58,7 @@ p {
   font-wight : bold;
   color: orange;
 }
-*/
+
 
 section {
   height: 80vh;
@@ -66,7 +66,7 @@ section {
 }
 
 p{
-  color: blue ;/*!important;higher than everything but bad practice*/
+  color: blue ;/*!important;higher than everything but bad practice
 }
 
 .red{
@@ -88,7 +88,7 @@ p.red {
 /*box-sizing is important property
 by default it is content-box (means size is without border and padding)
 another is border-box(size is with border and padding , it shrink the content)
-Margin of two elements collapses*/
+Margin of two elements collapses
 .box {
   width: 200px;
   height: 200px;
@@ -108,9 +108,97 @@ div {
 
 .purple {
   background-color: purple;
-  position: static;
+  /*position: relative;
+  top: 10px;
+  right: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+body{
+  height: 200vh;
+}
+
+
+div {
+  background-color: red;
+  color: white;
+  font-size: 24px;
+
+}
+/*every single link of css in this media query will only activate in screen-size upto 576px
+
+@media (max-width : 992px) {
+  div{
+    font-size: 20px;
+  }
+}
+
+@media (max-width : 768px) {
+  div{
+    font-size: 18px;
+  }
+}
+
+@media(max-width : 576px){
+  div{
+    font-size: 16px;
+  }
+}
+
+
+
+div::after{
+   content: " Fronted Smmplified";
+}*/
+
+div {
+  transition: background-color 300ms;
+}
+
+div:hover{
+  background-color: rgba(0,0,0,0.5);
+} 
+
+button{
+  animation: float 2000ms infinite alternate-reverse;
+ /* transform: translate(10px,10px); x,y value for translation*/
+  transition: all 300ms;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+/*animate elements in css using keyframes 
+@keyframes nameforanimation {
+  0%{
+
+  }
+  100%{
+
+  }
+}
+*
+
+@keyframes float {
+  0%{
+     transform: translateY(0);
+  }
+  100%{
+    transform: translateY(10px);
+  }
+}
+*/
+.nav__link {
+  color: black;
+}
+.nav__link--active{
+  font-weight: purple;
+}
  
 
 

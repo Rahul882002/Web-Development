@@ -31,7 +31,41 @@ Complex properties
    - static (default) : follows normal flow of the page 
    - relative : follows the normal flow of the page Lets you position using top ,left ,bottom ,right 
    - absolute : Does not follow the normal flow of the page Lets you position using top ,left ,bottom ,right And Position is based off closest 'position:relative' parent 
-   
+   CSS position values(uncommon)
+   - Fixed  : sticks element to a permanent location on the page 
+              Lets you use top , left , bottom , right 
+   - sticky : sticks element to a permanent location on the page once it hits a threshold 
+
+-------------------------------------------
+
+What Are Media Queries Used For ? 
+- Used to make web Pages Responsive 
+Common BreakPoints (max-width)
+
+- 576px Mobile Phones 
+- 768px Tablets 
+- 992px Desktops 
+- 1200px+ Large Desktops 
+
+------------------------------------------------
+
+Extras (Pseudo selectors , Animations , BEM)
+
+-> Pseudo Selectors (we have 2 pseudo elements in CSS)
+ - after : 
+ - before :
+
+ -- hover 
+
+-> Animations 
+ - create keyframes 
+
+-> BEM 
+ - Block - Element - Modifier is a naming convention used for css classes to make them easier to read and understand .
+  B[block] is the block component 
+  E[element] is dependent on the block component 
+  M[modifier] is used to change the style of the block 
+  
 
 
 
