@@ -1,0 +1,40 @@
+what is css?
+- stands for cascading stylesheets 
+- Used to style websites 
+== 3 methods for adding css 
+ 1. Inline CSS - style directly in the html tag 
+ 2. Internal CSS - using style tags within an HTML file 
+ 3. External CSS (recommended) - Linking an external css file 
+--------------------
+ Common CSS proerties 
+ text-color -> color : three ways words,RGB(can also add alpha for opacity(transperrency)),Hex 
+ background-color : sets the background color of the element 
+ width & height : sets width and height of the element 
+ ---------------------
+ Specificity
+---------------------
+ Box-Model 
+-> A container that consists of multiple different properties like : 
+ content padding(inside border , to increase space within the box) border margin(outside border , to separate elements or say two boxes)
+
+ ---------------------
+Complex properties 
+
+-> display 
+   Two CSS display values 
+    - block (takes 100% of the width and starts on a new line)
+      e.g. <p> <div> tags
+    - inline (Does not allow you to set width and height for element & starts on the same line)
+      e.g. <span> <img> tags
+-> position 
+   CSS position values(common) 
+   - static (default) : follows normal flow of the page 
+   - relative : follows the normal flow of the page Lets you position using top ,left ,bottom ,right 
+   - absolute : Does not follow the normal flow of the page Lets you position using top ,left ,bottom ,right And Position is based off closest 'position:relative' parent 
+   
+
+
+
+
+
+

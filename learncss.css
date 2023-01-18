@@ -1,0 +1,116 @@
+
+/*
+
+*{
+  universal selector
+}
+
+h3{
+    color: red;
+}
+
+div{
+    background-color:rgba(0,0,0, 0.2);
+width: 100%;dynamic value
+max-width: 200px;Responsive width
+/*height: 200px;/*hard-coded value generally does not define Height in this way, just avoid fixing height 
+height: 100vh;/*equal to size of 100% of viewport height can be 100vw
+border: 1px solid black;
+/* can write seperately
+border-width: 2px;
+border-style: dotted;
+border-color: red;
+font-size: 12px;
+font-weight: 600;
+font-family: "Roboto",sans-serif;
+}
+Specificity
+
+  -> specificity is the prioritization of the styling
+  -> property which comes after another will dominant.
+  -> ordering of the operations which one is going to be apply.
+  -> for this we have classes 
+  -> a dot(.) followed by class name
+  -> classes are more specific than p tag
+  -> id's have higher specificity than classes.
+  -> # sign followed by id-name.
+  -> in best practice we put id's minimal and only on sections.
+  -> p.blue has more specificity than .blue and p only no order matters
+  -> id is more specific than above all
+
+.red {
+  color: red;
+}
+
+p.blue {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+p {
+  color: black;
+}
+
+#title {
+  font-wight : bold;
+  color: orange;
+}
+*/
+
+section {
+  height: 80vh;
+  border: 1px solid black;
+}
+
+p{
+  color: blue ;/*!important;higher than everything but bad practice*/
+}
+
+.red{
+  color: red;
+}
+
+#title {
+ color:black ;
+}
+/* is not good practice
+p.red {
+  color:purple ;
+}
+/*this will have higher specificity
+#title.heading.red {
+  color:blue ;
+}
+*/
+/*box-sizing is important property
+by default it is content-box (means size is without border and padding)
+another is border-box(size is with border and padding , it shrink the content)
+Margin of two elements collapses*/
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 15px solid red;
+  padding: 15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
+  margin: 20px;
+  box-sizing: border-box;
+
+} 
+
+div {
+  height: 200px;
+  border: 3px solid black;
+}
+
+.purple {
+  background-color: purple;
+  position: static;
+}
+
+ 
+
+
